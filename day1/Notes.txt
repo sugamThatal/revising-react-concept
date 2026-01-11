@@ -1,0 +1,2 @@
+npm create-react-app <project name> //from CRA 
+npm create vite@latest // from vite

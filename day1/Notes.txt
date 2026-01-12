@@ -1,2 +1,4 @@
 npm create-react-app <project name> //from CRA 
 npm create vite@latest // from vite
+
+manifest.json file is for mobile application ( to see meta tags)

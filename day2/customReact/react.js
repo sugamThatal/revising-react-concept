@@ -18,7 +18,7 @@ function customRender(reactElement,container){
     container.appendChild(domElement);    */
 
     //Alternative approach
-    for(const prop in reactElement.props){
+   /* for(const prop in reactElement.props){
         domElement.setAttribute(prop,reactElement.props[prop]);
     }
     if(typeof reactElement.children==="string"){

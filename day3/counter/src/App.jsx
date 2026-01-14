@@ -9,6 +9,7 @@ function App() {
   const Addvalue=()=>{
     counter=counter+1;
     console.log(counter);
+    setCount(counter);
   }
 
   return (

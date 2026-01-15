@@ -11,6 +11,11 @@ function App() {
     console.log(counter);
     setCount(counter);
   }
+  const removeValue =()=>{
+    counter=counter-1;
+    console.log(counter);
+    setCount (counter);
+  }
 
   return (
     <>
@@ -18,7 +23,7 @@ function App() {
      <h2>Counter value: {counter}</h2>
      <button onClick={Addvalue}>Add Value</button>
      <br />
-     <button>Remove value</button>
+     <button onClick={removeValue }>Remove value</button>
     </>
   )
 }
